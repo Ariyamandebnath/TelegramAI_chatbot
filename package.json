@@ -1,0 +1,15 @@
+{
+  "name": "telegram_chatgpt_chatbot",
+  "version": "1.0.0",
+  "description": "ai telegram chatbot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ariyaman Debnath",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "openai": "^4.24.1"
+  }
+}
