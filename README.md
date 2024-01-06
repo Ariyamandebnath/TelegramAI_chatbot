@@ -35,18 +35,19 @@ Open the index.js file and replace the placeholder values for botToken and open_
 ### Usage
 Run the bot using the following command:
 
-bash
-  ```node index.js``
+```bash
+node index.js
+```
   The bot will be active and respond to messages on Telegram.
 
 3.  Features
-  /start: Start the conversation with the bot.
+In the telegram bots window type ```/start```: Starts the conversation with the bot.
 
 Chat Interaction: The bot listens to all incoming messages and generates responses using the OpenAI GPT-3.5 language model.
 
 4.  Configuration
-max_tokens: Maximum number of tokens for OpenAI response.
-model: Choose the OpenAI model for text generation.
-temperature: Control the randomness of the generated text.
+##### max_tokens: Maximum number of tokens for OpenAI response.
+##### model: Choose the OpenAI model for text generation.
+##### temperature: Control the randomness of the generated text.
 Adjust these parameters in the openAI.createCompletion function in the index.js file as needed.
 
