@@ -24,23 +24,22 @@ Before running the bot, make sure you have the following:
 
 2. Install dependencies:
 
-bash
-Copy code
-npm install
-Update the configuration:
+  ```bash
+  npm install
+
+3. Update the configuration:
 
 Open the index.js file and replace the placeholder values for botToken and open_AI_TOKEN with your actual Telegram bot token and OpenAI API key.
 
-Usage
+### Usage
 Run the bot using the following command:
 
 bash
-Copy code
   ```node index.js``
   The bot will be active and respond to messages on Telegram.
 
 3.  Features
-/start: Start the conversation with the bot.
+  /start: Start the conversation with the bot.
 
 Chat Interaction: The bot listens to all incoming messages and generates responses using the OpenAI GPT-3.5 language model.
 
