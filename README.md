@@ -17,15 +17,16 @@ Before running the bot, make sure you have the following:
 
 1. Clone the repository:
 
-   ```bash
+```bash
    git clone https://github.com/your-username/arin-chat-bot.git
    cd arin-chat-bot
-
+```
 
 2. Install dependencies:
 
   ```bash
-  npm install
+npm install
+  ```
 
 3. Update the configuration:
 
