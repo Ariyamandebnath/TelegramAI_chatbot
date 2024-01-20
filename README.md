@@ -15,39 +15,42 @@ Before running the bot, make sure you have the following:
 
 ### Installation
 
-1. Clone the repository:
+**1. Clone the repository:**
 
-```bash
+ ```bash
    git clone https://github.com/your-username/arin-chat-bot.git
    cd arin-chat-bot
-```
+ ```
 
-2. Install dependencies:
+**2. Install dependencies:**
 
   ```bash
 npm install
   ```
 
-3. Update the configuration:
+**3. Update the configuration:**
 
 Open the index.js file and replace the placeholder values for botToken and open_AI_TOKEN with your actual Telegram bot token and OpenAI API key.
 
 ### Usage
 Run the bot using the following command:
 
-```bash
+`bash
 node index.js
-```
-  The bot will be active and respond to messages on Telegram.
+`
+- The bot will be active and respond to messages on Telegram.
 
-3.  Features
-In the telegram bots window type ```/start```: Starts the conversation with the bot.
+**Features**
 
-Chat Interaction: The bot listens to all incoming messages and generates responses using the OpenAI GPT-3.5 language model.
+- In the telegram bots window type ```/start```: Starts the conversation with the bot.
 
-4.  Configuration
-##### max_tokens: Maximum number of tokens for OpenAI response.
-##### model: Choose the OpenAI model for text generation.
-##### temperature: Control the randomness of the generated text.
+- Chat Interaction: The bot listens to all incoming messages and generates responses using the OpenAI GPT-3.5 language model.
+
+**4. Configuration**
+
+- ***max_tokens:*** Maximum number of tokens for OpenAI response.
+- ***model:*** Choose the OpenAI model for text genera-tion.
+- temperature Control the randomness of the generated text.
+
 Adjust these parameters in the openAI.createCompletion function in the index.js file as needed.
 
